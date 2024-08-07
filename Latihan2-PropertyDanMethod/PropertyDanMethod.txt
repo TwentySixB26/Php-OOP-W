@@ -1,0 +1,10 @@
+1.Property
+- merepresantikan data / keadaan dari sebuah object 
+- Variabel yang ada didalam object (member Variable) 
+- penulisanya harus ada visibility (public,private, protected)
+
+
+2. Method 
+- merepresentasikan perilaku dari sebuah object 
+- function yang ada didalam object 
+- penulisanya harus ada visibility (public,private, protected)

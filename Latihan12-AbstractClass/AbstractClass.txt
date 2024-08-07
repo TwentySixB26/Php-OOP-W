@@ -1,0 +1,22 @@
+Abstract Class adalah sebuah class yang tidak dapat di instansiasi 
+Abstract Class harus memiliki minimal 1 method abstract 
+
+Cara buat kelas abstract :
+abstract class Buah {
+    private $warna ; 
+
+    abstract public function makan() ;
+
+    public function SetWarna($warna) {
+        $this->warna = $warna ; 
+    }
+}
+
+
+
+Alasan pakai kelas abstract 
+1. merepresentasikan konsep / ide dasar 
+2. "composition over inheritance" 
+3. salah satu cara menerapkan polimorphis
+4. sentralisasi logic 
+5. mempermudah pengerjaan tim 

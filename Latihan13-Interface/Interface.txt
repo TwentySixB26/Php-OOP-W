@@ -1,0 +1,25 @@
+Interface adalah kelas abstract yang sama sekali tidak memiliki implementasi 
+murni merupakan template untuk kelas turunannya 
+tidak boleh memiliki property, hanya deklarasi method saja 
+semua visibility nya harus public 
+boleh mendeklarasikan __construct() 
+satu kelas boleh mengimplementasikan beberapa interface 
+
+
+Contoh code : 
+Interface Buah {
+    public function makan() ; 
+    public function SetWarna($warna) ; 
+}
+
+turunan contoh code nya  :
+class Apel implements Buah {
+    protected $warna ; 
+    public function Makan() {
+        //isi 
+        //isi 
+    }
+    public function SetWarna($warna){
+        $this->warna = $warna ; 
+    }
+}

@@ -1,0 +1,4 @@
+Autoloading adalah memangil class(file) tanpa harus mengunakan require 
+
+code : 
+spl_autoload_register() ; 

@@ -1,0 +1,11 @@
+contoh penulisan code 
+
+class Mobil {
+    //isi 
+}
+
+class MobilSport extends Mobil {
+    //isi yang ada di mobil maka bisa digunakan di MobilSport.
+    jika ada property atau method yang dipanggil di MobilSport tapi MobilSport tidak mempunyai maka akan mengunakan
+    Mobil , tapi jika ada maka yang akan digunakan adalah MobilSport 
+}

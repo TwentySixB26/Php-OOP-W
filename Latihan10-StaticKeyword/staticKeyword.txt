@@ -1,0 +1,17 @@
+untuk mengambil property tidak bisa mengunakan $this->angka karena tidak di inisiasi tapi mengunakan self::$angka , wajib pakai $ karena tidak di inisiasi. 
+
+
+contoh code static :
+class ContohStatic {
+    public static $angka = 1 ; 
+}
+
+
+cara memangil/ mengakses fungsi static :
+echo ContohStatic::$angka ;
+
+
+
+untuk apa fungsi static??? 
+1. property atau method yang terkait dengan class , bukan object 
+2. Nilai static akan selalu tetap meskipun di inisiasi berulang kali (tidak reset)

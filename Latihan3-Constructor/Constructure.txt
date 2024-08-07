@@ -1,0 +1,8 @@
+Constructor adalah method yang otomatis dijalankan ketika sebuah class di instansiasi atau dibuat object nya 
+
+code :
+public function __construct() {
+    //isi 
+    //_ _ (harus ada dua) 
+    //nama tidak boleh sembarang wajib construct
+}

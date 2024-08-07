@@ -1,0 +1,5 @@
+Vissibility :
+
+1. Public , dapat digunakan dimana saja bahkan diluar kelas.
+2. protected, hanya dapat digunakan didalam sebuah kelas beserta turunanya.
+3. private, hanya dapat digunakan disebuah kelas tertentu saja. 

@@ -1,0 +1,4 @@
+NameSpace sebuah cara untuk mengelompokan program ke dalam sebuah package tersendiri atau disebut juga teknik encapsulation  
+
+tujuan : 
+agar tidak terjadi duplicate nama suatu class,jika ada dua class dengan nama yang sama maka akan terjadi eror 
